@@ -20,6 +20,17 @@ public class Programa {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Teclea el mes:");
         String mes=teclado.nextLine();
+        switch(mes){
+            case "enero":
+            case "marzo":
+            case "mayo":
+            case "julio":
+            case "agosto":
+            case "octubre":
+            case "diciembre":
+                System.out.println(mes+" tiene 31 días");
+                break;
+        }
     }
     
 }
